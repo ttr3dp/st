@@ -141,6 +141,7 @@ static const char *colorname[] = {
 	"#cccccc",
 	"#555555",
 	"black",
+	"gray90",
 };
 
 
@@ -148,9 +149,9 @@ static const char *colorname[] = {
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
-unsigned int defaultfg = 257;
-unsigned int defaultbg = 256;
-static unsigned int defaultcs = 258;
+unsigned int defaultbg = 258;
+unsigned int defaultfg = 259;
+unsigned int defaultcs = 256;
 static unsigned int defaultrcs = 257;
 
 /*
