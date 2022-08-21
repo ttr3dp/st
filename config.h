@@ -112,29 +112,30 @@ unsigned int tabspaces = 8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	/* tomorrow-night */
-	"#1d1f21",
-	"#cc6666",
-	"#b5bd68",
-	"#f0c674",
-	"#81a2be",
-	"#b294bb",
-	"#8abeb7",
-	"#c5c8c6",
-	"#969896",
-	"#cc6666",
-	"#b5bd68",
-	"#f0c674",
-	"#81a2be",
-	"#b294bb",
-	"#8abeb7",
-	"#ffffff",
+	/* doom-one */
+	"#000000",
+	"#ff6c6b",
+	"#98be65",
+	"#ecbe7b",
+	"#a9a1e1",
+	"#c678dd",
+	"#51afef",
+	"#bbc2cf",
+	"#000000",
+	"#ff6655",
+	"#99bb66",
+	"#ecbe7b",
+	"#a9a1e1",
+	"#c678dd",
+	"#51afef",
+	"#bfbfbf",
 
 	[255] = 0,
 
-	"#c5c8c6",
-	"#1d1f21",
-	"#c5c8c6"
+	"#bbc2cf",
+	"#22242b",
+	"#69ace9"
+
 
 	/* default */
 	/* /1* 8 normal colors *1/ */
